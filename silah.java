@@ -12,6 +12,17 @@ public class silah {
 	silah(){
 		
 	}
+	
+	String getInfo() {
+		String info = "Menzil :"+menzil;
+		if(sarjor1 != null)
+		{
+			info += " Þarjör mermi kapasite : "+sarjor1.mermiKapasite+" Þarjör mevcut mermi : "+sarjor1.mevcutMermi;
+		}
+		
+		return info;
+	}
+	
 
 	public void AtesEt(int hedefMenzil)
 	{
@@ -38,5 +49,8 @@ public class silah {
 		}
 		
 	}
+	
+	
+	
 	
 }

@@ -25,6 +25,10 @@ public class test {
 		silahTest.sarjorDoldur(30);
 		
 		silahTest.AtesEt(50);
+		System.out.println("-------------------------------");
+		System.out.println("--------DÜZELTME TEST----------");
+		System.out.println("-------------------------------");
+		System.out.println(silahTest.getInfo());
 	}
 
 }

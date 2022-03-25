@@ -26,4 +26,8 @@ public class sarjor {
 		System.out.println("Mevcut Mermi : " +mevcutMermi);
 		System.out.println("Þarjör fullendi.");
 	}
+	
+	
+	
+	
 }
